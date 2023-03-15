@@ -13,7 +13,7 @@ namespace Aula05Op2
         public float pesoMax = 100;
         public float pesoAtual = 0;
         public bool porta = true;
-        List<Pessoa> pessoas = new List<Pessoa> ();
+        List<Pessoa> pessoas = new List<Pessoa>();
 
         public void Movimento(int andar)
         {
