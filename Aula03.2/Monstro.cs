@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Aula03._2
 {
-    internal class Monstro
+    public class Monstro
     {
         public string nome;
         public string tipo;
         public Status status = new Status();
 
 
-        public void Atacar(Heroi heroi)
+        internal void Atacar(Heroi heroi)
         {
             Random ran = new Random();
             if (ran.Next(1, 50) < status.sorte)

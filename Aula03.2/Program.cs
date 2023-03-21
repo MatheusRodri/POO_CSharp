@@ -42,5 +42,3 @@ for (int i = 0; magoSup.status.vida >=0 || zordeSub.status.vida >= 0 ; i++)
     }
     
 }
-
-
