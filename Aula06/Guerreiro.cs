@@ -28,6 +28,7 @@ namespace Aula06
             
         }
 
+        override
         public void Defender(int pontosDeAtaque)
         {
             if (this.status.defesa <= pontosDeAtaque)

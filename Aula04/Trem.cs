@@ -8,6 +8,9 @@ namespace Aula04
 {
     public class Trem:Transporte
     {
-        public Trem() : base("trem", new Catraca(4.50f)) { };
+        public Trem() : base("trem", new Catraca(4.50f))
+        {
+
+        }
     }
 }
