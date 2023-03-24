@@ -10,9 +10,9 @@ namespace Aula07._2.Hostel
     {
         public HostelComBanheiro(int numero,float precoDiaria,int capacidade):base(numero,precoDiaria,capacidade) { }
 
-        public void PrecoTotal()
+        public override void PrecoTotal(Acomodacao acomodacao)
         {
-
+            acomodacao.precoDiaria += 20;
         }
     }
 }

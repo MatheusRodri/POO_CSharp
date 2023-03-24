@@ -15,7 +15,6 @@ namespace Aula07._2.Hostel
                 return capacidade >= 5 ? true : false;
             } set { } }
 
-        public int qtdAtual;
 
         public Hostel(int numero,float precoDiaria,int capacidade) : base(numero,precoDiaria,true) {
         this.capacidade = capacidade;

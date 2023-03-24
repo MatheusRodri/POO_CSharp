@@ -18,7 +18,7 @@ namespace Aula07._2
             this.precoDiaria = precoDiaria;
             this.ocupado = ocupado;
         }
-        public void precoTotal()
+        public virtual void PrecoTotal(Acomodacao acomodacao)
         {
 
         }

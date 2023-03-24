@@ -8,15 +8,25 @@ namespace Aula07._2
 {
     public class Hotel
     {
-        List<Acomodacao> acomodacoes = new List<Acomodacao>();
+        public List<Acomodacao> acomodacoes = new List<Acomodacao>();
         
         public void listaAcomVazio()
         {
-
+            for(int i = 0; i < acomodacoes.Count; i++)
+            {
+                if (acomodacoes[i].ocupado == false)
+                {
+                    Console.WriteLine($"{acomodacoes[i].numero}");
+                }
+            }
         }
         public void listaPrecos()
         {
+            for (int i = 0; i < acomodacoes.Count; i++)
+            {
+                Console.WriteLine($"{acomodacoes[i].numero} - {acomodacoes[i].precoDiaria}");
 
+            }
         }
     }
 }

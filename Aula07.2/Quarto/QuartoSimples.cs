@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Aula07._2.Quarto
 {
-    internal class QuartoSimples
+    public class QuartoSimples : Quarto
     {
+        public QuartoSimples(int numero, float precoDiaria, bool ocupado, bool vistaPiscina) : base(numero, precoDiaria, ocupado, vistaPiscina)
+        {
+        }
+        public override void PrecoTotal(Acomodacao acomodacao)
+        {
+            acomodacao.precoDiaria += 40;
+        }
     }
 }

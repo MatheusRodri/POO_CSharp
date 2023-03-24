@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Aula07._2.Suite
 {
-    internal class SuitePresidencial
+    public class SuitePresidencial:Suite
     {
+        public SuitePresidencial(int numero, float precoDiaria, bool ocupado, bool banheira) : base(numero, precoDiaria, ocupado, banheira)
+        {
+        }
+
+        public override void PrecoTotal(Acomodacao acomodacao)
+        {
+            acomodacao.precoDiaria += 150;
+        }
     }
 }
