@@ -1,0 +1,5 @@
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\ProvaTurmaA.csproj.AssemblyReference.cache
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\ProvaTurmaA.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\ProvaTurmaA.AssemblyInfoInputs.cache
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\ProvaTurmaA.AssemblyInfo.cs
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\ProvaTurmaA.csproj.CoreCompileInputs.cache

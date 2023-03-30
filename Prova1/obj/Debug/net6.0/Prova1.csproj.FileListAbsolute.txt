@@ -1,0 +1,15 @@
+C:\projects\Senac\POO\Prova1\bin\Debug\net6.0\Prova1.exe
+C:\projects\Senac\POO\Prova1\bin\Debug\net6.0\Prova1.deps.json
+C:\projects\Senac\POO\Prova1\bin\Debug\net6.0\Prova1.runtimeconfig.json
+C:\projects\Senac\POO\Prova1\bin\Debug\net6.0\Prova1.dll
+C:\projects\Senac\POO\Prova1\bin\Debug\net6.0\Prova1.pdb
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.csproj.AssemblyReference.cache
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.AssemblyInfoInputs.cache
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.AssemblyInfo.cs
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.csproj.CoreCompileInputs.cache
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.dll
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\refint\Prova1.dll
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.pdb
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\Prova1.genruntimeconfig.cache
+C:\projects\Senac\POO\Prova1\obj\Debug\net6.0\ref\Prova1.dll
