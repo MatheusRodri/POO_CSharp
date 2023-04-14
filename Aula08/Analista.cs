@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula08
 {
-    internal class Analista : Funcionario
+    public class Analista : Funcionario
     {
         public Analista(string nome, double salario) : base(nome, salario)
         {

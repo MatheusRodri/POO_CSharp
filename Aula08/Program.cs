@@ -1,9 +1,9 @@
 ﻿using Aula08;
 using System.IO;
 
-Estagiario zaina = new Estagiario("Erik Zaina", 900);
+Estagiario zaina = new Estagiario("Erik Zaina", 1000);
 Analista sena = new Analista("Murilo Sena", 3500);
-Diretor quintas = new Diretor("Thyago Quintas", 12000);
+Diretor quintas = new Diretor("Thyago Quintas", 10000);
 
 SistemaDeRH sistema = new SistemaDeRH();
 sistema.funcionarios.Add(zaina);
