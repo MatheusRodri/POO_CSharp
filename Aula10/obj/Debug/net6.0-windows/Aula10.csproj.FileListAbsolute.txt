@@ -1,0 +1,17 @@
+C:\projects\Senac\POO\Aula10\bin\Debug\net6.0-windows\Aula10.exe
+C:\projects\Senac\POO\Aula10\bin\Debug\net6.0-windows\Aula10.deps.json
+C:\projects\Senac\POO\Aula10\bin\Debug\net6.0-windows\Aula10.runtimeconfig.json
+C:\projects\Senac\POO\Aula10\bin\Debug\net6.0-windows\Aula10.dll
+C:\projects\Senac\POO\Aula10\bin\Debug\net6.0-windows\Aula10.pdb
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.csproj.AssemblyReference.cache
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.Form1.resources
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.csproj.GenerateResource.cache
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.AssemblyInfoInputs.cache
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.AssemblyInfo.cs
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.csproj.CoreCompileInputs.cache
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.dll
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\refint\Aula10.dll
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.pdb
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\Aula10.genruntimeconfig.cache
+C:\projects\Senac\POO\Aula10\obj\Debug\net6.0-windows\ref\Aula10.dll

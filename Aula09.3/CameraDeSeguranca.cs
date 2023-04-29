@@ -5,24 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using Aula08;
 
+
 namespace Aula09._3
 {
-    public interface IAcesso
+    
+    public class CameraDeSeguranca
     {
-        Diretor diretor { get; set; }
-        //public Estagiario estagiario { get; set; }
-        Analista analista { get; set; }
-
-        void show();
-    }
-    public class CameraDeSeguranca:IAcesso<Diretor,Analista>
-    {
-        Diretor diretor { get; set; }
-        Analista analista { get; set; }
-
-        public void show()
+        public void show(IAcesso acesso)
         {
-            Console.WriteLine($"{acesso}Esteve aqui");
+            Console.WriteLine($"{acesso.Nome()} Esteve aqui");
         }
 
     }
