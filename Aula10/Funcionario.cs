@@ -8,7 +8,6 @@ namespace Aula10
 {
     public abstract class Funcionario
     {
-
         public string nome { get; set; }
         protected Funcionario(string nome)
         {

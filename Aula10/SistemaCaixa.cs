@@ -15,13 +15,16 @@ namespace Aula10
 
         public SistemaCaixa()
         {
+            // Create and add new product in List
             produtos.Add(new ProdutoKG("Mamão", 19.90f));
             produtos.Add(new Produto("Pamppers P", 100.00f));
             produtos.Add(new Produto("Skol", 1.75f));
             produtos.Add(new ProdutoKG("Carne de 2º", 39.99f));
 
+            //Create and add new employeer in List
             funcionarios.Add(new Caixa("Caixa"));
             funcionarios.Add(new Gerente("Gerente"));
+            funcionarios.Add(new Patins("Patins"));
 
         }
     }

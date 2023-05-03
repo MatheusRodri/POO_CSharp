@@ -8,8 +8,6 @@ namespace Aula10
 {
     public class Patins : Funcionario, IAcesso
     {
-        public Patins(string nome) : base(nome)
-        {
-        }
+        public Patins(string nome) : base(nome){}
     }
 }

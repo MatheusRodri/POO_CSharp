@@ -10,10 +10,7 @@ namespace Aula10
     public class ProdutoKG : Produto
     {
         public float kg { get; set; }
-        public ProdutoKG(string nome, float valor) : base(nome, valor)
-        {
-           
-        }
+        public ProdutoKG(string nome, float valor) : base(nome, valor){}
         public ProdutoKG(string nome,float valor, float kg) : base(nome, valor)
         {
             this.kg = kg;

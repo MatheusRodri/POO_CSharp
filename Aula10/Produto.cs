@@ -8,8 +8,8 @@ namespace Aula10
 {
     public class Produto
     {
-
         public string nome { get; set; }
+
         public float valor { get; set; }
 
         public Produto(string nome, float valor)
@@ -27,6 +27,5 @@ namespace Aula10
         {
             return $"{this.nome} - R${this.Preco()}";
         }
-        
     }
 }

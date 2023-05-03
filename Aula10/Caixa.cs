@@ -8,8 +8,6 @@ namespace Aula10
 {
     public class Caixa : Funcionario
     {
-        public Caixa(string nome) : base(nome)
-        {
-        }
+        public Caixa(string nome) : base(nome){}
     }
 }

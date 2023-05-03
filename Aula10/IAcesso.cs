@@ -6,7 +6,5 @@ using System.Threading.Tasks;
 
 namespace Aula10
 {
-    public interface IAcesso
-    {
-    }
+    public interface IAcesso{}
 }

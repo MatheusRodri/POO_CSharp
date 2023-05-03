@@ -92,7 +92,7 @@
             txtKg.Name = "txtKg";
             txtKg.Size = new Size(133, 23);
             txtKg.TabIndex = 5;
-            txtKg.TextChanged += textBox1_TextChanged;
+           
             // 
             // button1
             // 
@@ -144,7 +144,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
-            Load += Form1_Load;
+            
             ResumeLayout(false);
             PerformLayout();
         }

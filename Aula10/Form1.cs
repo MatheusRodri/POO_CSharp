@@ -16,23 +16,19 @@ namespace Aula10
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            if (txtKg.Text == "")
-            {
-                MessageBox.Show("É nessario colocar o kg");
-                txtKg.Focus();
-                return;
-            }
+            
             dynamic produto = sistema.produtos[cmbProdutos.SelectedIndex];
 
             if (produto.GetType() == typeof(ProdutoKG))
             {
+                if (txtKg.Text == "")
+                {
+                    MessageBox.Show("É nessario colocar o kg");
+                    txtKg.Focus();
+                    return;
+                }
                 sistema.carrinho.Add(new ProdutoKG(produto.nome, produto.valor, float.Parse(txtKg.Text)));
             }
             else
@@ -41,7 +37,6 @@ namespace Aula10
             }
             txtKg.Text = "";
             AtualizaTela();
-
         }
         public void AtualizaTela()
         {
@@ -50,11 +45,6 @@ namespace Aula10
             {
                 lstCarrinho.Items.Add(produto.Descricao());
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void cmbProdutos_SelectedIndexChanged(object sender, EventArgs e)
@@ -76,16 +66,14 @@ namespace Aula10
         private void button2_Click(object sender, EventArgs e)
         {
             dynamic funcionario = sistema.funcionarios[cmbFuncionarios.SelectedIndex];
-
             remove(funcionario);
-
         }
 
         public void remove(Caixa caixa)
         {
             MessageBox.Show("Você não tem permissão");
         }
-        public void remove(Gerente gerente)
+        public void remove(IAcesso acesso)
         {
             sistema.carrinho.RemoveAt(lstCarrinho.SelectedIndex);
             AtualizaTela();
