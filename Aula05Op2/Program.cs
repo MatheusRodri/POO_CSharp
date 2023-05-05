@@ -1,4 +1,4 @@
-﻿using Aula05Op2;
+﻿using Aula05._1._2;
 
 Pessoa jadson = new Pessoa("Jadson", 80.00f, 2, 8);
 Pessoa waldyr = new Pessoa("Waldyr", 90.20f, 8, 0);

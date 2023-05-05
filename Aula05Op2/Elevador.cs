@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Aula05Op2
+namespace Aula05._1._2
 {
     public class Elevador
     {

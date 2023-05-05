@@ -27,5 +27,20 @@ namespace Aula10
             funcionarios.Add(new Patins("Patins"));
 
         }
+
+        public void AdicionarCarrinho(Produto produto)
+        {
+            carrinho.Add(produto);
+        }
+
+        public void AdicionarCarrinho(ProdutoKG produto)
+        {
+            carrinho.Add(produto);
+        }
+
+        public void remover(int indice)
+        {
+            carrinho.RemoveAt(indice);
+        }
     }
 }

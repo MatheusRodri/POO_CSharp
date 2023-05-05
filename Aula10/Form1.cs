@@ -29,11 +29,11 @@ namespace Aula10
                     txtKg.Focus();
                     return;
                 }
-                sistema.carrinho.Add(new ProdutoKG(produto.nome, produto.valor, float.Parse(txtKg.Text)));
+                sistema.AdicionarCarrinho(new ProdutoKG(produto.nome, produto.valor, float.Parse(txtKg.Text)));
             }
             else
             {
-                sistema.carrinho.Add(produto);
+                sistema.AdicionarCarrinho(produto);
             }
             txtKg.Text = "";
             AtualizaTela();
@@ -69,13 +69,13 @@ namespace Aula10
             remove(funcionario);
         }
 
-        public void remove(Caixa caixa)
+        public void remove(dynamic funcionario)
         {
             MessageBox.Show("Você não tem permissão");
         }
         public void remove(IAcesso acesso)
         {
-            sistema.carrinho.RemoveAt(lstCarrinho.SelectedIndex);
+            sistema.remover(lstCarrinho.SelectedIndex);
             AtualizaTela();
         }
     }
