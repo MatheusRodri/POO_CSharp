@@ -1,5 +1,5 @@
-﻿using ProvaTurmaA;
-using ProvaTurmaA.Produtos;
+﻿using Prova1TurmaA;
+using Prova1TurmaA.Produtos;
 
 DateTime data = new DateTime(2024,03,12);
 ProdutoEletronico celular = new ProdutoEletronico("celular", "motorola", 1500.00f, 500.00f, data,null);

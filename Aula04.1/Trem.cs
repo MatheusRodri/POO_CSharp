@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Aula04
+namespace Aula04._1
 {
     public class Trem:Transporte
     {

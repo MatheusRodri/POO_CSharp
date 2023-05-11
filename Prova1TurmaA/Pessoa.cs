@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ProvaTurmaA.Produtos;
+using Prova1TurmaA.Produtos;
 
-namespace ProvaTurmaA
+namespace Prova1TurmaA
 {
     public class Pessoa
     {
