@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\Senac\\POO\\Aula01\\Aula01.csproj",
-      "projectName": "Aula01",
-      "projectPath": "C:\\projects\\Senac\\POO\\Aula01\\Aula01.csproj",
+      "projectUniqueName": "C:\\projects\\Senac\\POO\\Aula09.3\\Aula09.3.csproj",
+      "projectName": "Aula01.1",
+      "projectPath": "C:\\projects\\Senac\\POO\\Aula09.3\\Aula09.3.csproj",
       "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
       "outputPath": "C:\\projects\\Senac\\POO\\Aula01\\obj\\",
       "projectStyle": "PackageReference",
