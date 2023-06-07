@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Aula08.1\Aula08.1.csproj" />
+  </ItemGroup>
+
 </Project>
